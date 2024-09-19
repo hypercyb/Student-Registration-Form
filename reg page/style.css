@@ -14,6 +14,32 @@ input{
 }
 
 
+@media (max-width:2000px) {
+  .wrapper .form .inputfield {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .wrapper .form .inputfield label {
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .wrapper .form .inputfield.terms {
+    flex-direction: row;
+  }
+
+  #btn, #gender{
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  #hobbies{
+    display:inline-block;
+    width: 30%;
+    
+  }
+  
+}
 
 
 body {
